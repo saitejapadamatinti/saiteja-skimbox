@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Inter;
+}
+
+.very-small-para {
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.small-para-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.para-2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.para-18px {
+    color: #CD264F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bold-text-500 {
+    font-weight: 500;
+}
+
+.bold-text-400 {
+    font-weight: 400;
+}
+
+.red-text {
+    color: #CD264F;
+}
+
+.main-contaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container-1 {
+    width: 341px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hr-line {
+    width: 93.996px;
+    height: 0.904px;
+    border: 1px solid #D9D9D9;
+}
+
+.bundel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.pair-box-1 {
+    width: 340.734px;
+    height: 74.112px;
+    flex-shrink: 0;
+    border-radius: 3.615px;
+    border: 0.904px solid #C8C8C8;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.pair-input-content-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pair-1-input-cls {
+    width: 14.461px;
+    height: 14.461px;
+    flex-shrink: 0;
+    stroke-width: 0.904px;
+    stroke: #D9D9D9;
+}
+
+.pair-paras-div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.pair-box-2 {
+    width: 340.734px;
+    height: 161.781px;
+    border-radius: 3.615px;
+    border: 0.904px solid #F88CA7;
+    background: #FFF4F7;
+    padding: 20px 20px;
+}
+
+.pair-box-2-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pair-2-paras {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 3px;
+}
+
+.line-through-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+    padding-top: 19px;
+}
+
+.grid-divs-class {
+    display: grid;
+    grid-template-columns: 0.6fr 3fr 3fr 5fr;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.size-selecting-container {
+    padding-left: 20px;
+}
+
+.size-selecting-section {
+    margin-bottom: 8px;
+}
+
+.select-item-cls {
+    width: 72.304px;
+    height: 25.306px;
+    border-radius: 1.808px;
+    border: 0.904px solid #D9D9D9;
+    background: #FFF;
+    margin-right: 4px;
+}
+
+.shipping-details-div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.add-card-button {
+    width: 341px;
+    height: 48px;
+    border-radius: 4px 4px 4px 0px;
+    background: #CD264F;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.power-by-para {
+    text-align: right;
+    margin-top: 8px;
+    font-style: italic;
+}
